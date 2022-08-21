@@ -5,9 +5,45 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Arpita Dhar's Website</title>
      <link rel="stylesheet" href="./styles.css">
+     <link href='https://fonts.googleapis.com/css?family=BenchNine' rel='stylesheet'>
   </head> 
-  <body>
-    <h1>Arpita Dhar's Website</h1>
-    <h2>About Me:</h2> 
-  </body> 
+  <header class="primary-header flex">
+   <nav>
+    <ul id="primary-navigation" class="primary=navigation flex">
+      <li class="active">
+        <a>
+          Home
+        </a>
+      </li>
+      <li>
+        <a>
+          About Me
+        </a>
+      </li>
+      <li>
+        <a>
+          Projects
+        </a>
+      </li>
+      <li>
+        <a>
+          GitHub
+        </a>
+      </li>
+      <li>
+        <a>
+          <div class="one__icon"></div>
+          <div class="one__button" id="icon"></div>
+        </a>
+      </li>
+    </ul>
+  </nav>
+ </header> 
+<nav>
+  <script>
+    var icon = document.getElementById("icon"); 
+    icon.onclick = function(){
+      document.body.classList.toggle("dark-theme");
+    }
+  </script>
 </html>
