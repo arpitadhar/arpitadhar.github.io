@@ -1,13 +1,77 @@
 body{
-  font-family: sans-serif; 
-  background-color: linear gradient(45 deg, #CD5C5C, #FFFFF0);
-  padding: 20px; 
+  background-color: var(--primary-color);
+  text-align: center; 
+  font-size: 1.4rem; 
+  font-weight: bold; 
+  color: var(--secondary-color); 
+  font-family: 'BenchNine'; 
 }
-h1 {
-  font-size: 40px;
-  margin-top: 0;
-  margin-bottom: 15px;
+a{
+  color: var(--secondary-color);
 }
-h1, h2{
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+/*section{
+  padding: 45vh 0; 
+}
+.one{
+  position: relative; 
+  margin: 0 auto; 
+}
+.one__icon{
+  background: rgba(0, 0, 0, .3); 
+  width: 100px; 
+  height: 100px; 
+  margin: 0 auto; 
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}*/
+.one__button{
+  width: 30px; 
+  height: 30px; 
+  cursor: pointer; 
+  background: var(--secondary-color); 
+}
+
+:root{
+  --primary-color: #FFFFFF; 
+  --secondary-color: #212121; 
+}
+
+
+.dark-theme{
+  --primary-color: #000000; 
+  --secondary-color: #FFFFFF; 
 }
