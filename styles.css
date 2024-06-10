@@ -10,8 +10,8 @@ a{
   color: var(--secondary-color);
 }
 h1 { 
-     font-family: "Covered By Your Grace"; 
-     font-size: 24px; font-style: normal; 
+     /* font-family: "Covered By Your Grace"; 
+     font-size: 24px; font-style: normal;  */
      font-variant: normal; 
      font-weight: 700; 
      line-height: 26.4px;
@@ -112,4 +112,22 @@ li a:hover:not(.active) {
   text-align: center; 
   margin-top: 250px;
   font-size: 150px;
+}
+
+#welcome{
+  font-weight: 1700;
+  width: 1800px; 
+  height: 1300px; 
+  font-size: 300px;
+}
+
+.dot2 {
+  position: absolute;
+  width: 55rem;
+  height: 55rem;
+  background-color: var(--secondary-color);
+  border-radius: 50%; 
+  z-index: -1;
+  left: 70rem;
+  bottom: 20rem;
 }
